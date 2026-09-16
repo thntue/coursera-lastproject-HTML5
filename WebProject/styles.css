@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px; 
+}
+
+h1 { 
+    color: #444444; 
+    text-align: center;
+}
+
+h2 { 
+    color: #ff0000; 
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; 
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+.image-container { 
+    margin-bottom: 30px; 
+}
